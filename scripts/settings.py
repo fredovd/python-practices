@@ -5,4 +5,4 @@ class Settings():
         # Configuracion de la pantalla
         self.pantalla_ancho = 1200
         self.pantalla_alto = 800
-        self.bg_color = (230, 230, 230 )
+        self.bg_color = (230, 230, 230)
