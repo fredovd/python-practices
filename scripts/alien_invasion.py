@@ -15,9 +15,9 @@ def ejecutar_juego():
     # Hacer una nave
     nave = Nave(pantalla)
 
-    #Comenzamos el loop principalp del juego
+    #Comenzamos el loop principal del juego
     while True:
-        gf.comprobar_eventos()
+        gf.comprobar_eventos(nave)
         gf.actualizar_pantalla(ai_settings, pantalla, nave)
 
 ejecutar_juego()
