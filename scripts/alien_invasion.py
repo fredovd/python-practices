@@ -13,7 +13,7 @@ def ejecutar_juego():
 
     bg_color = (230, 230, 230)
     # Hacer una nave
-    nave = Nave(pantalla)
+    nave = Nave(pantalla, ai_settings)
 
     #Comenzamos el loop principal del juego
     while True:
